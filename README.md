@@ -1,8 +1,5 @@
  <h1 align="center"> Hi!!<img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" height="40"width="40" />Welcome to the Community Card Showcase </h1> 
     
-# 🚀 Community Card Showcase
-
-Welcome to the **Community Card Showcase**! 🌟  
 This is a beginner-friendly **Open Source project** designed to celebrate contributions and showcase the profiles of developers from around the world.
 
 <!--line-->
