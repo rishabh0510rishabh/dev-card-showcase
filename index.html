@@ -551,6 +551,18 @@
 
         <div class="card">
             <div class="card-inner">
+                <img src="images/Vaishnav-K-12.jpg" alt="User Photo" class="card-img">
+                <h2>Vaishnav K</h2>
+                <span class="role">Contributor</span>
+                <p>"Exploring open source and learning GitHub and version control along the way."</p>
+                <a href="https://github.com/Vaishnav-K-12" class="card-btn" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> View Github Profile
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
                 <img src="images/nur-hasin.jpg" alt="User Photo" class="card-img">
                 <h2>Nur Hasin Ahammad</h2>
                 <span class="role">Contributor</span>
@@ -867,60 +879,7 @@
             }, 500);
         });
     </script>
-    <!-- 🔼 Scroll To Top Floating Action Button -->
-    <button id="scrollToTopBtn" aria-label="Scroll to top">
-        ⬆
-    </button>
-    <script>
-        /* =========================================
-           SCROLL TO TOP BUTTON LOGIC
-           ========================================= */
 
-        const scrollBtn = document.getElementById("scrollToTopBtn");
-        const SCROLL_THRESHOLD = 300;
-
-        // Show / hide button on scroll
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > SCROLL_THRESHOLD) {
-                scrollBtn.classList.add("show");
-            } else {
-                scrollBtn.classList.remove("show");
-            }
-        });
-
-        // Smooth scroll to top
-        scrollBtn.addEventListener("click", () => {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        });
-    </script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const cards = document.querySelectorAll('.card');
-            cards.forEach((card, i) => {
-                setTimeout(() => card.classList.add('revealed'), i * 60);
-            });
-        });
-    </script>
-    <script>
-        const viewToggle = document.getElementById("viewToggle");
-        const cardContainer = document.querySelector(".card-container");
-
-        viewToggle.addEventListener("click", () => {
-            cardContainer.classList.toggle("compact-view");
-
-            // Toggle icon
-            const icon = viewToggle.querySelector("i");
-            if (cardContainer.classList.contains("compact-view")) {
-                icon.classList.replace("fa-list", "fa-th-large");
-            } else {
-                icon.classList.replace("fa-th-large", "fa-list");
-            }
-        });
-    </script>
 
 
     <script src="tilt.js"></script>
